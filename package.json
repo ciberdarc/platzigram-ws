@@ -1,0 +1,31 @@
+{
+  "name": "platzigram-ws",
+  "version": "1.0.0",
+  "description": "Platzigram Realtime Backend",
+  "scripts": {
+    "lint": "standard",
+    "start": "node server.js"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciberdarc/platzigram-ws.git"
+  },
+  "author": "Alexis Araujo <ala1289@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ciberdarc/platzigram-ws/issues"
+  },
+  "homepage": "https://github.com/ciberdarc/platzigram-ws#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.2.1",
+    "babel-preset-es2015": "^6.24.0",
+    "standard": "^9.0.2"
+  },
+  "dependencies": {
+    "rethinkdb": "^2.3.3",
+    "socket.io": "^1.7.3"
+  }
+}
